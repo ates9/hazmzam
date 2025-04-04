@@ -1,0 +1,158 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\csv_logic\accessories.csv" />
+    <None Remove="Assets\csv_logic\alliance_badges.csv" />
+    <None Remove="Assets\csv_logic\alliance_roles.csv" />
+    <None Remove="Assets\csv_logic\area_effects.csv" />
+    <None Remove="Assets\csv_logic\bosses.csv" />
+    <None Remove="Assets\csv_logic\campaign.csv" />
+    <None Remove="Assets\csv_logic\cards.csv" />
+    <None Remove="Assets\csv_logic\challenges.csv" />
+    <None Remove="Assets\csv_logic\characters.csv" />
+    <None Remove="Assets\csv_logic\emotes.csv" />
+    <None Remove="Assets\csv_logic\game_mode_variations.csv" />
+    <None Remove="Assets\csv_logic\globals.csv" />
+    <None Remove="Assets\csv_logic\items.csv" />
+    <None Remove="Assets\csv_logic\locales.csv" />
+    <None Remove="Assets\csv_logic\locations.csv" />
+    <None Remove="Assets\csv_logic\location_themes.csv" />
+    <None Remove="Assets\csv_logic\maps.csv" />
+    <None Remove="Assets\csv_logic\map_blocks.csv" />
+    <None Remove="Assets\csv_logic\messages.csv" />
+    <None Remove="Assets\csv_logic\milestones.csv" />
+    <None Remove="Assets\csv_logic\name_colors.csv" />
+    <None Remove="Assets\csv_logic\pins.csv" />
+    <None Remove="Assets\csv_logic\player_thumbnails.csv" />
+    <None Remove="Assets\csv_logic\projectiles.csv" />
+    <None Remove="Assets\csv_logic\regions.csv" />
+    <None Remove="Assets\csv_logic\resources.csv" />
+    <None Remove="Assets\csv_logic\skills.csv" />
+    <None Remove="Assets\csv_logic\skins.csv" />
+    <None Remove="Assets\csv_logic\skinsrarity.csv" />
+    <None Remove="Assets\csv_logic\skin_confs.csv" />
+    <None Remove="Assets\csv_logic\themes.csv" />
+    <None Remove="Assets\csv_logic\tiles.csv" />
+    <None Remove="Assets\fingerprint.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Supercell.Laser.Titan\Supercell.Laser.Titan.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\csv_logic\accessories.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\alliance_badges.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\alliance_roles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\area_effects.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\bosses.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\campaign.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\cards.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\challenges.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\characters.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\emotes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\game_mode_variations.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\globals.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\items.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\locales.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\locations.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\location_themes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\maps.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\map_blocks.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\messages.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\milestonesv29.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\milestones.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\name_colors.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\pins.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\player_thumbnails.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\projectiles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\regions.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\resources.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\skills.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\skins.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\skinsrarity.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\skin_confs.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\themes.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\csv_logic\tiles.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Assets\fingerprint.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,8 @@
+﻿{
+    "udp_host": "75.2.68.222",
+    "tcp_port": 9339,
+    "database_username": "root",
+    "database_password": "HHHbuber355",
+    "database_name": "talebrawl",
+    "debugging": "true"
+}
